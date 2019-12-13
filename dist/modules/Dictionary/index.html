@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>数据结构 --- 字典</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<ul id="result">
+111
+</ul>
+<script>
+  window.onload  = function() {
+    var result = document.getElementById('result'),
+    newDic = new Dictionary();
+    newDic.set('aaa', {name: '永强'});
+    console.log('set',newDic.values());
+    newDic.clear();
+    console.log('clear',newDic.values());
+  }
+</script>
+</body>
+</html>

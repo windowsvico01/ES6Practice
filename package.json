@@ -1,0 +1,46 @@
+{
+  "name": "es6practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "test",
+    "start": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windowsvico01/ES6Practice.git"
+  },
+  "author": "vico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/windowsvico01/ES6Practice/issues"
+  },
+  "homepage": "https://github.com/windowsvico01/ES6Practice#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "art-template-loader": "^1.4.3",
+    "css-loader": "^3.2.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-devserver": "^0.6.4",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-webserver": "^0.9.1",
+    "install": "^0.13.0",
+    "node-sass": "^4.13.0",
+    "npm": "^6.13.0",
+    "style-loader": "^1.0.0",
+    "through2": "^2.0.1",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-connect": "^5.7.0"
+  }
+}
