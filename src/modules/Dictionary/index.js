@@ -4,7 +4,7 @@ class Dictionary {
   }
   /** 判断是否包含某个键值 */
   has(key) {
-    return key in items;
+    return key in this.items;
   }
   /** 向字典中添加新元素 */
   set(key, value) {

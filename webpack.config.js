@@ -21,7 +21,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: (data) => {
-            console.log(data.chunk.entryModule);
+            // console.log(data.chunk.entryModule);
             return 'bundle/[name].bundle.js';
         }
     },
